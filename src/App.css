@@ -1,11 +1,11 @@
 .App {
   max-width: 800px;
-  margin: 40px auto;
+  margin: 60px auto;
   border-radius: 30px;
   border-width: 2px;
   border-style: solid;
   border-color: #39a2db;
-  padding: 35px;
+  padding: 40px;
   background: #e4fbff;
   display: block;
 }
