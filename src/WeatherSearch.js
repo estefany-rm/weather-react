@@ -39,6 +39,7 @@ export default function WeatherSearch() {
     return (
       <div>
         {form}
+        <h2>The weather in {city} is: </h2>
         <ul>
           <li>Temperature: {Math.round(weather.temperature)}°C</li>
           <li>Description: {weather.description}</li>

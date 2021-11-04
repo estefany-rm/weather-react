@@ -1,11 +1,11 @@
-.App {
+.App header {
   max-width: 800px;
   margin: 60px auto;
   border-radius: 30px;
   border-width: 2px;
   border-style: solid;
   border-color: #39a2db;
-  padding: 40px;
+  padding: 30px;
   background: #e4fbff;
   display: block;
 }
@@ -15,21 +15,26 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-h1 {
+.App form {
+  display: flex;
+  justify-content: center;
+}
+
+.App h1 {
   color: #39a2db;
   font-size: 60px;
   font-weight: bold;
   text-align: center;
 }
 
-.date {
-  font-size: 20px;
+.App h2 {
+  color: #39a2db;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
 }
 
-ul {
-  font-size: 16px;
+.App li {
   list-style: none;
-  position: relative;
-  top: -70px;
-  left: 500px;
+  text-align: center;
 }
